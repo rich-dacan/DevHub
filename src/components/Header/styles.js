@@ -10,6 +10,20 @@ export const HeaderStyles = styled.header`
   top: 0;
   height: 72px;
 
-  border-bottom: 1px solid var(--grey-2);
+  box-shadow: 0px 10px 10px var(--color-primary-Focus);
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-primary-Focus);
+  }
+
+  .colorHub {
+    color: var(--grey-1);
+  }
 
 `

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import Logo from '../../assets/image/Logo.svg'
+// import Logo from '../../assets/image/Logo.svg'
 import { FormLoginStyles, Button, SpanLogo, Copy }   from "./styles";
 import { AiOutlineEyeInvisible, AiOutlineEye } from 'react-icons/ai';
 import { toast } from 'react-toastify';
@@ -64,7 +64,8 @@ const FormLogin = ({ authenticated, setAuthenticated }) => {
 
     <>
       <SpanLogo>
-        <img className="logo" src={Logo} alt="logo-kenziehub" />
+        {/* <img className="logo" src={Logo} alt="logo-kenziehub" /> */}
+        <h1> DevHub</h1>
       </SpanLogo>
       <FormLoginStyles onSubmit={handleSubmit(onSubmit)}>
 

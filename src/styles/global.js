@@ -11,8 +11,8 @@ export default createGlobalStyle`
 
   :root {
     // PRIMARY PALETTE
-    --color-primary: #FF577F;
-    --color-primary-Focus: #FF427F;
+    --color-primary: #73001a;
+    --color-primary-Focus: #900020;
     --color-primary-Negative: #59323F;
 
     // GREY SCALE PALETTE

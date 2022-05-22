@@ -28,7 +28,11 @@ const Header = ({ authenticated, setAuthenticated }) => {
     >
       <HeaderStyles>
 
-        <img src={Logo} alt="logo-kenziehub" />
+        {/* <img src={Logo} alt="logo-kenziehub" /> */}
+        <span>
+          <h1> Dev </h1>
+          <h1 className="colorHub"> Hub</h1>
+        </span>
 
         <ButtonExit onClick={resetSession}> Sair </ButtonExit>
 
