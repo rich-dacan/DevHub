@@ -7,8 +7,9 @@ export const FooterStyles = styled.footer`
   margin-top: 150px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--grey-4);
+
   a {
-    width: 80vw;
+    width: 98vw;
     text-align: center;
     text-decoration: none;
     
@@ -29,6 +30,7 @@ export const FooterStyles = styled.footer`
       color: #fff;
       opacity: 1;
     }
+    
   p {
     text-align: center;
     margin: 50px auto;

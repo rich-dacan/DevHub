@@ -6,7 +6,7 @@ const UserGreeting = ({name, module}) => {
   return (
     <SectionSuperior>
       <h1> Olá, {name}! </h1>
-      <p> {module}</p>
+      <p> {module} </p>
     </SectionSuperior>
   )
 }

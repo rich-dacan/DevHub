@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BtnExitStyles = styled.button`
 
-  font-size: 12px;
+  font-size: .8rem;
   font-weight: 600;
   line-height: 28px;
   width: 55.5px;
@@ -11,6 +11,11 @@ export const BtnExitStyles = styled.button`
   color: var(--grey-0);
   border: none;
   border-radius: 4px;
+  transition: all ease .4s;
+
+  :hover {
+    background-color: var(--color-primary);
+  }
 
 
 `
