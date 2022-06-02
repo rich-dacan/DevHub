@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
@@ -24,11 +24,11 @@ export default createGlobalStyle`
 
     //FEEDBACK PALETTE
     --toastify-color-light: var(--grey-2);
-    --toastify-icon-color-success:#3FE864;
-    --toastify-color-progress-success: #3FE864;
-    --toastify-text-color-light:var(--grey-0);
-    --success: #3FE864;
-    --error: #E83F5B;
+    --toastify-icon-color-success: var(--color-primary);
+    --toastify-color-progress-success: var(--color-primary);
+    --toastify-text-color-light:var(--grey-1);
+    --success: var(--grey-0);
+    --error: var(--color-primary-Focus);
   }
 
   body {
@@ -60,4 +60,4 @@ export default createGlobalStyle`
     background-color: var(--color-primary);
     border-radius: 30px;
   }
-`
+`;
