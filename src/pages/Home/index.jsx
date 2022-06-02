@@ -35,7 +35,7 @@ const Home = ({ authenticated, setAuthenticated }) => {
 
     loadTechs();
 
-  }, []);
+  }, [tech]);
 
   if (!authenticated) {
     return <Navigate to='/'/>
