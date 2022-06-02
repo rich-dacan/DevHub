@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
 import Modal           from "react-modal";
 import { SpanContainer, ModalStyles, ButtonTask, WrapperBtnModal } from "./styles";
